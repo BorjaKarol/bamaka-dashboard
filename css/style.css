@@ -1,0 +1,32 @@
+.sidebar{
+    background-color: rgba(210, 0, 1, 0.9);
+}
+
+.logo{
+    width: 50%;
+    height: auto;
+}
+
+.sidebar-brand{
+    margin: 15px;
+}
+
+@media (max-width: 576px) {
+    .logo {
+      width: 100%;
+      height: auto;
+    }
+    .sidebar-brand{
+        margin: 5px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .logo {
+      width: 100%;
+      height: auto;
+    }
+    .sidebar-brand{
+        margin: 5px;
+    }
+  }
